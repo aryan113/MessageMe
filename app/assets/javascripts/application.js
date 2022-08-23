@@ -16,3 +16,9 @@
 //= require turbolinks
 //= require semantic-ui
 //= require_tree .
+
+
+// To active dropdown menu. 
+$(document).on('turbolinks:load', function(){
+  $('.ui.dropdown').dropdown();
+})
